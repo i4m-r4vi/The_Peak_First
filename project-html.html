@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Peaks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        
+        *{
+            margin: 0%;
+        }
+
+        nav{
+            background-color: #4B4453;
+            display: flex;
+            justify-content: space-between;
+        }
+        .title{
+            color: white;
+            font-family: sans-serif;
+            font-weight: 200;
+            margin-top: 16px;
+            margin-left: 12px;
+            
+        }
+
+        ul{
+            display: flex;
+            list-style-type: none;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            
+        }
+        li{
+            margin-top: 2px;   
+            
+        }
+        .banner{
+            background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/10001.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 700px;
+            width: 100%;
+        }
+        .b-title{
+            /* color: #D5E6E4; */
+            color: white;
+            text-align: center;
+            padding: 200px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            font-size: 30px;
+            /* text-shadow: 4px 4px 2px black; */
+        }
+        .b-title p{
+            text-align: center;
+        }
+        .cards{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .services{
+            background-color: #4B4453;
+            text-align: center;
+            padding: 20px;
+            height: 700px;
+        }
+        .card-1{
+            background-color: #fff;
+            width: 230px;
+            text-align: center;
+            padding: 10px;
+            margin-right: 20px;
+            border-radius: 25px;
+            
+        }
+        .card-1 img{
+            width: 230px;
+            height: 200px;
+            border-radius: 25px;
+        }
+        .card-2{
+            background-color: #fff;
+            width: 230px;
+            text-align: center;
+            padding: 10px;
+            margin-right: 20px;
+            border-radius: 25px;
+            
+        }
+        .card-2 img{
+            width: 230px;
+            height: 200px;
+            border-radius: 25px;
+        }
+        .card-3{
+            background-color: #fff;
+            width: 230px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 25px;
+            
+            
+        }
+        .card-3 img{
+            width: 230px;
+            height: 200px;
+            border-radius: 25px;
+        }
+        .services h2{
+            color: white;
+            font-weight: 200;
+            font-family: sans-serif;
+        }
+        .services p{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+        }
+        .hill{
+            margin-top: 10px;
+        }
+        .a-img{
+            display: flex;
+            background-color: #4B4453;
+            margin-top: 50px;
+            margin-left: 160px;
+            margin-right: 160px;
+            margin-bottom: 50px;
+            justify-content: space-evenly;
+            border-radius: 25px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .a-img2{
+            display: flex;
+            background-color: #4B4453;
+            margin-top: 50px;
+            margin-left: 160px;
+            margin-right: 160px;
+            margin-bottom: 50px;
+            justify-content: space-evenly;
+            border-radius: 25px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .a-img2 img{
+            position: relative;
+            display: flex;
+            width: 240px;
+            height: 240px;
+            padding: 20px;
+            border-radius: 50%;
+        }
+
+        .a-img img{
+            width: 240px;
+            height: 240px;
+            padding: 20px;
+            border-radius: 50%;
+        }
+        .a-title{
+            text-align: center;
+            padding: 20px;
+        }
+        .a-para{
+            position: relative;
+            width: 450px;
+            top: 80px;
+        }
+        .comp{
+            margin: 10px;
+            position: relative;
+            left: 220px;
+        }
+        .contact{
+            background-color: #4B4453;
+            height: 800px;
+        }
+        .con-d{
+            display: flex;
+            justify-content: space-evenly;
+            color: white;
+            padding-top: 60px;
+        }
+        .con-d label{
+            display: flex;
+        }
+        .con-d iframe{
+            width: 400px;
+            height: 400px;
+            margin-left: -185px;
+            border-radius: 25px;
+        }
+        .con-d input{
+            display: flex;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border: 2px solid #4B4453;
+            border-radius: 15px;
+            padding-left: 10px;
+            
+        }
+        .con-d form{
+            margin-top: 80px;
+        }
+        .con-d button{
+            padding: 10px;
+            border-radius: 25px;
+            background-color: white;
+            position: relative;
+            left: 90px;
+        }
+        .a-title1{
+            /* padding: 20px;
+            margin-left: 850px; */
+            display: flex;
+            position: relative;
+            padding-top: 30px;
+
+        }
+         fieldset{
+            border-radius: 25px;
+            width: 240px;
+            height: 360px;
+            /* width: 400px;
+            height: 400px; */
+            /* width="600" height="450" */
+            padding-left: 50px;
+            margin-right: -185px;
+            
+        }
+        .aboutus{
+            height: 790px;
+        }
+        .a-title2{
+            padding-top: 20px;
+            position: absolute;
+            left:24%;
+
+        }
+        .a-title3{
+            padding-top: 20px;
+            position: absolute;
+            right: 18%;
+            
+        }
+        .formss{
+            padding-top: 20px;
+        }
+        .maps{
+            padding-top: 10px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <nav id="home">
+        <!-- nav-bar -->
+        <h2 class="title">Peaks</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#s">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact-Us</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="banner" id="home">
+        <!-- banner-img -->
+            <div class="b-title">
+                <h2>Mountains</h2>
+                <br>
+                <p>Hill stations are elevated areas, typically located in mountainous regions, that are popular tourist destinations for their cooler temperatures and scenic landscapes. </p>
+            </div>
+    </div>
+    
+    <div class="services" id="s">
+        <h2>Most Viewed Hills</h2>
+        <!-- services -->
+        <div class="cards">
+            <div class="card-1">
+                <img src="images/10002.jpg" alt="">
+                <p><b>Yercaud</b></p>
+                <p class="hill">Yercaud is a beautiful hill station in the Salem district of Tamil Nadu. At a distance of 31 km from Salem, and 249 km from Bangalore, it is one of the best Tamilnadu tourist places, and among the most famous places to visit near Bangalore.
+                </p>
+            </div>
+            <div class="card-2">
+                <img src="images/Ooty.jpg" alt="">
+                <p><b>Ooty</b></p>
+                <p class="hill">Often referred to as Queen of hill stations, Ooty is one of the best hill stations in India and among the top places to visit in Tamilnadu. Ooty is situated at a distance of 265 km from Bangalore.</p>
+            </div>
+            <div class="card-3">
+                <img src="images/kodaikanal.jpg" alt="">
+                <p><b>Kodaikanal</b></p>
+                <p class="hill">Often referred to as the Princess of Hill stations, Kodaikanal or Kodai is one of the top tourist destinations in Tamilnadu tour packages and among the best hill stations in South India. It is located at a distance of about 469 km from Bangalore & 528 km from Chennai.</p>
+            </div>
+        </div>
+    </div>
+    <div class="aboutus" id="about">
+        <!-- About -->
+        <div class="a-title">
+            <h2>About US</h2>
+        </div>
+        <div class="a-img">
+            <img src="images/hills.jpg" alt="">
+            <div class="a-para">
+                <p>At Peaks, we take pride in providing a unique blend of comfort, elegance, and a touch of local charm. Our meticulously crafted cottages, adorned with traditional architecture and modern amenities, offer a cozy refuge for those seeking a peaceful getaway.</p>
+                <p class="comp">-Peaks Company</p>
+            </div>
+        </div>
+        <div class="a-img2">
+            <div class="a-para">
+                <p>At Peaks, we take pride in providing a unique blend of comfort, elegance, and a touch of local charm. Our meticulously crafted cottages, adorned with traditional architecture and modern amenities, offer a cozy refuge for those seeking a peaceful getaway.</p>
+                <p class="comp">-Peaks Company</p>
+            </div>
+            <img src="images/hills.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <!-- contact -->
+        <div class="a-title1">
+            <div class="a-title2">
+                <h2 style="color: white;">Location</h2>
+            </div>
+            <div class="a-title3">
+                <h2 style="color: white;">Contact US</h2>
+            </div>
+        </div>
+        
+        <div class="con-d">
+            
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62493.12709957987!2d78.16753296895297!3d11.777689959965091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf42c3fbf0e67%3A0xdd5ed802e2380b90!2sYercaud%20Homestays!5e0!3m2!1sen!2sin!4v1706331462747!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="formss">
+                <fieldset>
+                    <legend>Register</legend>
+                <form action="">
+                    <label for="">Name:</label>
+                    <input type="text" placeholder="Enter Name">
+                    <label for="">Address</label>
+                    <input type="text" placeholder="Enter Address">
+                    <label for="">Date</label>
+                    <input type="date" style="padding-right: 45px;">
+                    <br>
+                    <button >Submit</button>
+                </form>
+            </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
